@@ -19,6 +19,8 @@ The Game of Life is played on a grid of cells, where each cell can be in one of 
 3. **Underpopulation**: A live cell with fewer than two live neighbors dies. 
 4. **Overpopulation**: A live cell with more than three live neighbors dies. 
 
+The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed and continue to be applied repeatedly to create further generations.
+
 ## Examples of Patterns
 
 Many different types of patterns occur in the Game of Life, classified according to their behavior. Here are some common pattern types:
